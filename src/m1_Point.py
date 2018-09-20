@@ -935,7 +935,7 @@ def run_test_get_distance_traveled():
     print('Expected p4 has now traveled 100.0')
     print('Actual:', p4.get_distance_traveled())
 
-    
+
 def run_test_closer_to():
     """
     Tests the   closer_to   method of the Point class.
