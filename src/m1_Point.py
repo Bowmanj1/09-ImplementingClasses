@@ -74,7 +74,6 @@ class Point(object):
         self.x = self.x + dx
         self.y = self.y + dy
         self.count = self.count + 1
-        self.dist_t = self.dist_t + self.get_distance_from(Point(self.x, self.y))
 
     def get_number_of_moves_made(self):
         return self.count
